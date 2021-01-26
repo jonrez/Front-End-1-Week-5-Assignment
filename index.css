@@ -13,3 +13,14 @@ img{
   width: 40px;
   height: auto;
 }
+
+.row {
+  display: flex;  /* aligns all child elements (flex items) in a row */
+  background-color: grey;
+  padding: 20px;
+  border-style: solid;
+}
+
+.col {
+  flex: 1;        /* distributes space on the line equally among items */
+}
